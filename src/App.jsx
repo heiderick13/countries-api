@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
-import data from "./data.json";
+import Home from "./pages/Home/Home";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <h1>App</h1>
-      {data.map((country) => (
-        <p>{country.name}</p>
-      ))}
+      <Outlet />
     </>
   );
 }
