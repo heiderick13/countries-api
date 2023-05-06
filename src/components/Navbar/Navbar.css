@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  padding: 1rem 1.5rem;
+
+  background-color: hsl(210, 22%, 22%);
+}
+
+Link {
+  text-decoration: none;
+}
