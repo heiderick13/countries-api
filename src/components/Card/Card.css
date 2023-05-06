@@ -1,6 +1,8 @@
 .country-card {
-  width: 20rem;
+  min-width: 20rem;
+
   margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
 
   font-size: 1.4rem;
 
@@ -12,7 +14,7 @@
 
 .country-img {
   width: 100%;
-  height: 40%;
+  height: 10rem;
 }
 
 .country-info {
@@ -21,4 +23,5 @@
 
 .country-title {
   font-weight: 700;
+  margin: 1rem 0;
 }
