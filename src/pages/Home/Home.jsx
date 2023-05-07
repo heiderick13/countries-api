@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <div className="home">
-      <form className="filter-form">
+      <form className="filter-form flex">
         <input
           className="search-input"
           type="text"
@@ -29,13 +29,13 @@ function Home() {
         >
           <option value="all">All</option>
           <option value="africa">Africa</option>
-          <option value="america">America</option>
+          <option value="americas">Americas</option>
           <option value="asia">Asia</option>
           <option value="europe">Europe</option>
           <option value="oceania">Oceania</option>
         </select>
       </form>
-      <div className="countries-container">
+      <div className="countries-container flex">
         {data
           .filter((country) => {
             return search.toLowerCase() === ""
