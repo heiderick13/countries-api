@@ -55,6 +55,4 @@ function Home() {
   );
 }
 
-// cor de fundo: #202D36
-
 export default Home;
