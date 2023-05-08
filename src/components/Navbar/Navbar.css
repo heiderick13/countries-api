@@ -5,9 +5,6 @@ nav {
 
   padding: 1rem 1.5rem;
 
-  background-color: hsl(210, 22%, 22%);
-}
-
-Link {
-  text-decoration: none;
+  background-color: var(--elements);
+  box-shadow: 2px 2px 15px hsla(0, 0%, 0%, 0.4);
 }
