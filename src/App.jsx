@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
+    <body className="dark-mode">
       <Navbar />
       <Outlet />
-    </>
+    </body>
   );
 }
 

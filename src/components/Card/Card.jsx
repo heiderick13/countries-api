@@ -1,6 +1,6 @@
 import "./Card.css";
 
-function MovieCard({ country }) {
+function Card({ country }) {
   return (
     <div className="country-card">
       <img className="country-img" src={country.flags.png} alt={country.name} />
@@ -15,4 +15,4 @@ function MovieCard({ country }) {
   );
 }
 
-export default MovieCard;
+export default Card;
