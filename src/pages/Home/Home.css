@@ -13,6 +13,8 @@
   border-radius: 0.5rem;
   border: none;
   outline: none;
+
+  background-color: var(--elements);
 }
 
 .search-input {
@@ -23,5 +25,5 @@
 
 .countries-container {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }

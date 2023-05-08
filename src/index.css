@@ -2,8 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  background-color: hsl(207, 26%, 17%);
 }
 
 .dark-mode {
@@ -26,7 +24,7 @@
 }
 
 input,
-a {
+select {
   font: inherit;
   color: inherit;
 }
@@ -37,6 +35,15 @@ a {
 
 body {
   color: var(--text);
+  background-color: var(--background);
+}
+
+body,
+.card,
+nav,
+input,
+select {
+  transition: 0.3s;
 }
 
 /* - Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%);
