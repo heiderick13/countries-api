@@ -6,7 +6,7 @@ import DetailedCard from "../../components/DetailedCard/DetailedCard";
 function Details({ data }) {
   const { name } = useParams();
   return (
-    <>
+    <div style={{ padding: "2rem" }}>
       <Link to={"/"} className="return-btn">
         Home
       </Link>
@@ -15,7 +15,7 @@ function Details({ data }) {
         .map((country) => (
           <DetailedCard country={country} />
         ))}
-    </>
+    </div>
   );
 }
 

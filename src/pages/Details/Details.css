@@ -1,0 +1,7 @@
+.return-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--elements);
+  box-shadow: 2px 2px 15px hsla(0, 0%, 0%, 0.6);
+}
