@@ -23,6 +23,7 @@
   padding: 0;
   box-sizing: border-box;
   color: inherit;
+  transition: 0.1s;
 }
 
 input,
@@ -41,10 +42,10 @@ select {
   min-height: 100vh;
 }
 
-.body,
+/* .body,
 .country-card,
 nav,
 input,
 select {
   transition: 0.3s;
-}
+} */
