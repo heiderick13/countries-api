@@ -5,6 +5,7 @@
 }
 
 .img-container {
+  justify-content: center;
   background-color: var(--elements);
   padding: 1rem;
   border-radius: 0.5rem;
@@ -27,4 +28,10 @@
   border-radius: 0.3rem;
   background-color: var(--elements);
   box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 900px) {
+  .detailed-card {
+    flex-direction: column;
+  }
 }
