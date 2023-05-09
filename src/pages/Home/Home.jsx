@@ -4,10 +4,9 @@ import { useState } from "react";
 
 import { MdSearch } from "react-icons/md";
 
-import data from "../../data.json";
 import Card from "../../components/Card/Card";
 
-function Home() {
+function Home({ data }) {
   const [search, setSearch] = useState("");
   const [regionFilter, setRegionFilter] = useState("all");
 
