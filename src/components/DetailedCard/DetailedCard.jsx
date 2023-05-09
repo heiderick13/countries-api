@@ -30,25 +30,29 @@ function DetailedCard({ country }) {
               </div>
               <div className="info">
                 Currencies:{" "}
-                {country.currencies.map((currency) => (
-                  <span>{currency.name}</span>
+                {country.currencies.map((currency, i) => (
+                  <span key={i}>{currency.name}</span>
                 ))}
               </div>
               <div className="info">
                 Languages:{" "}
-                {country.languages.map((lang) => (
-                  <span className="lang">{lang.name}</span>
+                {country.languages.map((lang, i) => (
+                  <span key={i} className="lang">
+                    {lang.name}
+                  </span>
                 ))}
               </div>
             </div>
           </div>
-          <p className="borders flex">
+          <div className="borders flex">
             Border Countrys:
             {country.borders &&
-              country.borders.map((border) => (
-                <div className="border">{border}</div>
+              country.borders.map((border, i) => (
+                <span key={i} className="border">
+                  {border}
+                </span>
               ))}
-          </p>
+          </div>
         </div>
       </div>
     </div>
