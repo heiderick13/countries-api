@@ -1,6 +1,4 @@
 .detailed-card {
-  width: 60%;
-
   gap: 2.5rem;
   align-items: stretch;
   justify-content: space-between;
@@ -22,6 +20,7 @@
   line-height: 2;
 }
 
+.lang,
 .border {
   margin-left: 0.5rem;
   padding-inline: 0.5rem;

@@ -37,7 +37,7 @@ function DetailedCard({ country }) {
               <div className="info">
                 Languages:{" "}
                 {country.languages.map((lang) => (
-                  <span>{lang.name}</span>
+                  <span className="lang">{lang.name}</span>
                 ))}
               </div>
             </div>
