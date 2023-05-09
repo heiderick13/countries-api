@@ -2,7 +2,7 @@
   width: 17rem;
 
   background-color: var(--elements);
-  box-shadow: 2px 2px 15px hsla(0, 0%, 0%, 0.6);
+  box-shadow: var(--shadow);
 
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
