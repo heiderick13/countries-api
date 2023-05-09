@@ -10,10 +10,10 @@ function App() {
     setIsDarkTheme(!isDarkTheme);
   };
   return (
-    <body className={isDarkTheme ? "dark-mode" : "light-mode"}>
+    <div className={isDarkTheme ? "body dark-mode" : "body light-mode"}>
       <Navbar isDarkTheme={isDarkTheme} handleChangeTheme={handleChangeTheme} />
       <Outlet />
-    </body>
+    </div>
   );
 }
 

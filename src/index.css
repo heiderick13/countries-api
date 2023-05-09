@@ -33,13 +33,13 @@ select {
   display: flex;
 }
 
-body {
+.body {
   color: var(--text);
   background-color: var(--background);
   min-height: 100vh;
 }
 
-body,
+.body,
 .country-card,
 nav,
 input,

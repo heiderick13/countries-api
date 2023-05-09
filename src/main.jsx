@@ -5,6 +5,9 @@ import "./index.css";
 
 import App from "./App.jsx";
 import Home from "./pages/Home/Home";
+import Details from "./pages/Details/Details";
+
+import data from "./data.json";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Home data={data} />,
+      },
+      {
+        path: "/details/:name",
+        element: <Details data={data} />,
       },
     ],
   },
